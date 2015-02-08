@@ -13,6 +13,6 @@ test_that("match the example output for the corr.R function", {
   expect_equal(summary(corr("specdata", 5000)), df6)
   expect_equal( length(corr("specdata", 5000)), 0)
   expect_equal(summary(corr("specdata"      )), df7)
-  expect_equal( length(corr("specdata"      )), 323)
+  expect_equal( length(corr("specdata"      )), 332)
 })
   
